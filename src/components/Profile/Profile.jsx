@@ -10,7 +10,7 @@ export default function Profile({ name, tag, location, image, stats }) {
         <p className="p-location">{location}</p>
       </div>
 
-      <ul>
+      <ul className="p-list">
         <li className="p-attribute">
           <span>Followers</span>
           <span className="p-stats">{stats.followers}</span>

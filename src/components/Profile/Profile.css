@@ -9,9 +9,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   border: 3px solid #2a2a2a;
   border-radius: 10px;
-  width: 300px;
+  width: 450px;
   padding-top: 15px;
   margin: auto;
   margin-top: 30px;
@@ -20,11 +21,14 @@
 }
 
 .p-image {
-  background-color: #808080;
+  background-color: #606060;
   border-radius: 50%;
+  display: flex;
+  align-items: center;
   overflow: hidden;
+  margin: auto;
   margin-bottom: 20px;
-  width: 100%;
+  width: 50%;
   height: 100%;
 }
 
@@ -33,14 +37,20 @@
   font-size: 35px;
 }
 
+.p-list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
 .p-attribute {
-  border: 1px solid #808080;
+  border: 1px solid #2a2a2a;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 33%;
   gap: 10px;
-  background-color: #d3d3d3;
+  background-color: #606060;
   padding: 15px;
 }
 
