@@ -4,9 +4,9 @@ import TransactionHistory from "../TransactionHistory/TransactionHistory.jsx";
 
 import "./App.css";
 
-import userData from "../userData.json";
-import friends from "../friends.json";
-import transactions from "../transactions.json";
+import userData from "../Data/userData.json";
+import friends from "../Data/friends.json";
+import transactions from "../Data/transactions.json";
 
 function App() {
   return (
