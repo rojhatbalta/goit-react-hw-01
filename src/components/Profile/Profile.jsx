@@ -6,8 +6,8 @@ export default function Profile({ name, tag, location, image, stats }) {
       <div>
         <img className="p-image" src={image} alt={name} />
         <p className="p-name">{name}</p>
-        <p className="p-tag">@{tag}</p>
-        <p className="p-location">{location}</p>
+        <p>@{tag}</p>
+        <p>{location}</p>
       </div>
 
       <ul className="p-list">

@@ -1,4 +1,4 @@
-export default function FriendsListItem({ friendData }) {
+const FriendsListItem = ({ friendData }) => {
   return (
     <>
       <img src={friendData.avatar} alt={friendData.name} width="48" />
@@ -8,4 +8,6 @@ export default function FriendsListItem({ friendData }) {
       }`}</p>
     </>
   );
-}
+};
+
+export default FriendsListItem;

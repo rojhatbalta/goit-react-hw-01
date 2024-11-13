@@ -8,7 +8,7 @@ import userData from "../Data/userData.json";
 import friends from "../Data/friends.json";
 import transactions from "../Data/transactions.json";
 
-function App() {
+const App = () => {
   return (
     <>
       <Profile
@@ -22,6 +22,6 @@ function App() {
       <TransactionHistory items={transactions} />
     </>
   );
-}
+};
 
 export default App;
