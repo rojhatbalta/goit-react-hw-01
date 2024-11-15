@@ -1,4 +1,4 @@
-.friend-list {
+.friendList {
   display: flex;
   justify-content: center;
   gap: 15px;
@@ -6,7 +6,7 @@
   margin-bottom: 25px;
 }
 
-.friend-item {
+.friendItem {
   border: 1px solid #2a2a2a;
   padding: 25px;
   display: flex;
@@ -16,7 +16,7 @@
   width: 75px;
 }
 
-.friend-name {
+.friendName {
   font-size: 25px;
 }
 
